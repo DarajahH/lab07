@@ -9,11 +9,27 @@ public class AlternativeArithmetic {
      * 3. Repeats until there's no carry left
      */
     public static int addWithoutPlus(int a, int b) {
+
+var carry;
         // Base case: if one of the numbers is 0, return the other
         // TODO: return a if b is 0
+
+    if (b=0){
+    return a;
+    }
+        
         // TODO: return b if a is 0
+    if (a=0){
+    return b;
+    }
 
         // TODO:Create a while loop that runs until b is 0. This loop will calculate the sum of a and b
+
+        while(b!=0){
+
+carry = "AND";
+      int a = (a^b) 
+
             // TODO: create a variable carry and assign it the result of the bitwise AND operation between a and b
             // TODO: assign the result of the bitwise XOR operation between a and b to a
             // TODO: assign the result of the left shift operation on carry by 1 to b
